@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9BEF1B59-E375-43E7-809E-4B195207D4BB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ParseStarterProject-Swift</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B227EA2E1FF4DEC9FA46CE69AB014FE5A728ED95</key>
+		<string>https://github.com/anotherjung/learnios34_search.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ParseStarterProject-Swift/ParseStarterProject-Swift.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B227EA2E1FF4DEC9FA46CE69AB014FE5A728ED95</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/anotherjung/learnios34_search.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B227EA2E1FF4DEC9FA46CE69AB014FE5A728ED95</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B227EA2E1FF4DEC9FA46CE69AB014FE5A728ED95</string>
+			<key>IDESourceControlWCCName</key>
+			<string>learnios34_search</string>
+		</dict>
+	</array>
+</dict>
+</plist>
