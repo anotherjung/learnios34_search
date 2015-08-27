@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		732DB2AF1B8FBB3C00AC7E36 /* CancelButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732DB2AE1B8FBB3C00AC7E36 /* CancelButtonDelegate.swift */; };
 		737E3BA51B8FAC160069A744 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 737E3BA41B8FAC160069A744 /* Main.storyboard */; };
 		737E3BA91B8FAC1F0069A744 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737E3BA61B8FAC1F0069A744 /* loginViewController.swift */; };
 		737E3BAA1B8FAC1F0069A744 /* registerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737E3BA71B8FAC1F0069A744 /* registerViewController.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		732DB2AE1B8FBB3C00AC7E36 /* CancelButtonDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancelButtonDelegate.swift; sourceTree = "<group>"; };
 		737E3BA41B8FAC160069A744 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		737E3BA61B8FAC1F0069A744 /* loginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
 		737E3BA71B8FAC1F0069A744 /* registerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = registerViewController.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 				737E3BA61B8FAC1F0069A744 /* loginViewController.swift */,
 				737E3BA71B8FAC1F0069A744 /* registerViewController.swift */,
 				737E3BA81B8FAC1F0069A744 /* searchViewController.swift */,
+				732DB2AE1B8FBB3C00AC7E36 /* CancelButtonDelegate.swift */,
 			);
 			path = ParseStarterProject;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 			files = (
 				81BA814D1A49DA1800E65899 /* ViewController.swift in Sources */,
 				737E3BAB1B8FAC1F0069A744 /* searchViewController.swift in Sources */,
+				732DB2AF1B8FBB3C00AC7E36 /* CancelButtonDelegate.swift in Sources */,
 				81BA814B1A49DA1800E65899 /* AppDelegate.swift in Sources */,
 				737E3BA91B8FAC1F0069A744 /* loginViewController.swift in Sources */,
 				737E3BAA1B8FAC1F0069A744 /* registerViewController.swift in Sources */,

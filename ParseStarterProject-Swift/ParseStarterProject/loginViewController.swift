@@ -14,7 +14,6 @@ class loginViewController: UIViewController, UITextFieldDelegate {
     
     @IBOutlet weak var validationLabel: UILabel!
     
-    
     @IBOutlet weak var usernameField: UITextField!
     
     @IBOutlet weak var passwordField: UITextField!
@@ -27,7 +26,8 @@ class loginViewController: UIViewController, UITextFieldDelegate {
             (user: PFUser?, error: NSError?) -> Void in
             if user != nil {
                 // Do stuff after successful login.
-                self.performSegueWithIdentifier("loginSeque", sender: self)
+                //self.performSegueWithIdentifier("loginSeque", sender: self)
+                self.performSegueWithIdentifier("searchSeque", sender: self)
             } else {
                 self.validationLabel.text = "Yo Try again"
                 // The login failed. Check error to see why.

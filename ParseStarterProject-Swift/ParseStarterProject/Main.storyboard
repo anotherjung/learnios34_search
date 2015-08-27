@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
         <!--Register View Controller-->
@@ -185,6 +185,41 @@
             </objects>
             <point key="canvasLocation" x="939" y="1083"/>
         </scene>
+        <!--Item-->
+        <scene sceneID="3Nk-je-rC4">
+            <objects>
+                <tableViewController id="DZp-bf-y3Z" customClass="searchViewController" customModule="ParseStarterProject_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="109" sectionHeaderHeight="22" sectionFooterHeight="22" id="aKh-Os-szJ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MissionCell" rowHeight="109" id="0U7-lj-Gy6">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0U7-lj-Gy6" id="uAv-Nd-MgI">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="DZp-bf-y3Z" id="sHc-oi-Ex0"/>
+                            <outlet property="delegate" destination="DZp-bf-y3Z" id="DSv-u3-AeF"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Item" id="qEz-ch-7xo"/>
+                    <toolbarItems>
+                        <barButtonItem systemItem="cancel" id="tQC-Rb-HVo">
+                            <connections>
+                                <action selector="cancelBarButtonPressed:" destination="DZp-bf-y3Z" id="arg-b9-zv2"/>
+                            </connections>
+                        </barButtonItem>
+                    </toolbarItems>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="muy-cp-Pdf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1441" y="1823"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
@@ -292,14 +327,33 @@
                         <outlet property="usernameField" destination="8s0-KL-FKs" id="guu-Pq-kjW"/>
                         <outlet property="validationLabel" destination="Lbk-Ef-yhB" id="f3X-tI-Ppw"/>
                         <segue destination="wxu-NL-NzZ" kind="show" identifier="loginSeque" id="9Ka-sI-gz9"/>
+                        <segue destination="dJ5-KW-F1q" kind="show" identifier="searchSeque" id="6rW-Tw-RJ9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aIh-OR-0Xf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="204" y="1073"/>
         </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="lAg-9p-bPi">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="dJ5-KW-F1q" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="tGq-Lr-prr">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="DZp-bf-y3Z" kind="relationship" relationship="viewControllers" id="bnC-sP-SrN"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Y8H-1H-cVu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="629" y="1823"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="9Ka-sI-gz9"/>
+        <segue reference="9Se-w3-agI"/>
     </inferredMetricsTieBreakers>
 </document>
